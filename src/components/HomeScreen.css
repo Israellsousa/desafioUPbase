@@ -1,0 +1,175 @@
+/* src/components/HomeScreen.css */
+
+  
+
+
+
+.home-screen {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  font-family: 'Jura', sans-serif;;
+  background-color: #white;
+  padding: 16px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 16px;
+  
+  border-radius: 8px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.back-button .back-icon {
+  
+  height: 24px;
+  display:flex;
+}
+
+.register-button {
+  background: #fff;
+  color: #7B2CBF;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+  //olhar aqui
+  
+}
+
+.alinhaadd{
+  align-content: center ;
+}
+.welcome-section {
+  flex: 1;
+
+  padding: 16px;
+  
+}
+
+.left-aligned {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.welcome-section h1 {
+  font-size: 24px;
+  color: #7B2CBF;
+  margin-bottom: 16px;
+  margin: 0;
+}
+
+.filter-buttons {
+  display: flex;
+  margin-top: 8px;
+}
+.filter-buttons .filter-button {
+  border: none;
+  padding: 10px 20px;
+  margin-right: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.filter-buttons .botão-flats {
+  background: #7B2CBF;
+  color: #fff;
+}
+
+.filter-buttons button {
+  background: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #6A1B9A;
+}
+
+.no-properties {
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.no-properties .sad-face {
+  font-size: 48px;
+  color: #6A1B9A;
+}
+
+.no-properties p {
+  color: #333;
+  margin: 8px 0;
+}
+
+.no-properties button {
+  background: #fff;
+  color: #7B2CBF;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.confirmation-modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px 8px 0 0;
+}
+
+.confirmation-modal p {
+  margin-bottom: 20px;
+}
+
+.confirmation-modal button {
+  background: #6A1B9A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.confirmation-modal button:hover {
+  background: #4A148C;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  background: #7B2CBF;
+  padding: 16px 0;
+  border-radius: 8px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.Splash-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.Splash-container h1 {
+    font-size:24px;
+    font-weight: bold;
+}
